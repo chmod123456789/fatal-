@@ -8,5 +8,5 @@ def check_host(host):
         print(f"Host {host} is unreachable")
 
 if __name__ == "__main__":
-    host_to_check = 'blackrock.com'  # Ganti dengan host yang ingin Anda periksa
+    host_to_check = 'https://youtu.be/40Wk_B7Udws?si=Vn-UL7i4sDeDSjqw'  # Ganti dengan host yang ingin Anda periksa
     check_host(host_to_check)
