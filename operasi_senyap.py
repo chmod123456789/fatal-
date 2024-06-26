@@ -3,7 +3,7 @@ import requests
 def get_random_user():
     try:
         # Kirim permintaan GET ke API Random User
-        response = requests.get('bisa diganti dan sesuikan dengan domain wab http atau https yg telah anda tenntukan')
+        response = requests.get('bisa diganti dan sesuikan dengan domain wab http atau https yg telah anda tentukan')
         
         # Periksa jika permintaan berhasil (kode status HTTP 200)
         if response.status_code == 200:
